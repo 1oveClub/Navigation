@@ -1,810 +1,331 @@
-<!DOCTYPE html>
-<html lang="zh">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>1OVE导航</title>
-    <meta name="description" content="1OVE导航，不仅囊括1ove生态的内容，还包含了其他精彩内容。">
-    <link rel="shortcut icon" href="https://www.1ove.club/media/images/eduifuns.png">
-    <link rel="stylesheet" href="//fonts.loli.net/css?family=Arimo:400,700,400italic">
-    <link rel="stylesheet" href="https://www.1ove.club/media/css/icomoon.css">
-    <link rel="stylesheet" href="https://www.1ove.club/media/css/main.css?v=1633875702141">
-  </head>
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>1OVE CLUB</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<body class="page-body">
-    <!-- skin-white -->
-    <div class="page-container">
-        <div class="sidebar-menu toggle-others fixed">
-            <div class="sidebar-menu-inner">
-                <header class="logo-env">
-                    <!-- logo -->
-                    <div class="logo">
-                        <a href="https://www.1ove.club" class="logo-expanded">
-                            <img src="https://www.1ove.club/images/avatar.png"  style="height:68px" alt="" />
-                        </a>
-                        <a href="https://www.1ove.club" class="logo-collapsed">
-                            <img src="https://www.1ove.club/media/images/eduifuns.png" width="40" alt="" />
-                        </a>
-                    </div>
-                    <div class="mobile-menu-toggle visible-xs">
-                        <a href="#" data-toggle="mobile-menu">
-                            <i class="icon-bar"></i>
-                        </a>
-                    </div>
-                </header>
-                <ul id="main-menu" class="main-menu">
-                    <!-- li 加 has-sub 开启分组-->
-                    <li class="has-sub">
-                        <a>
-                            <i class="icon-globe"></i>
-                            <span class="title">1OVE体系</span>
-                        </a>
-                        <!-- ul li 格式添加子分组-->
-                        <ul>
-                            <li>
-                                <a href="#1OVE生态" class="smooth">
-                                    <i class="icon-star"></i>
-                                    <span class="title">1OVE生态</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#1OVE工具" class="smooth">
-                                    <i class="icon-pencil"></i>
-                                    <span class="title">1OVE工具</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#1OVE趣味" class="smooth">
-                                    <i class="icon-database"></i>
-                                    <span class="title">1OVE趣味</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    
-                    <li>
-                        <a href="#博客" class="smooth">
-                            <i class="icon-desktop"></i>
-                            <span class="title">博客</span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li>
-                        <a href="#Telegram" class="smooth">
-                            <i class="icon-graduation-cap"></i>
-                            <span class="title">Telegram</span>
-                        </a>
-                    </li>
-                    
-                    <!-- 
-                    <li>
-                        <a href="#素材资源" class="smooth">
-                            <i class="icon-inbox"></i>
-                            <span class="title">素材资源</span>
-                        </a>
-                    </li>
-                    
-                    <li class="submit-tag">
-                        <a href="https://www.1ove.club/about">
-                            <i class="icon-heart"></i>
-                            <span class="title">关于本站</span>
-                        </a>
-                    </li> -->
-                </ul>
-            </div>
-        </div>
-        <div class="main-content">
-            <nav class="navbar user-info-navbar" role="navigation">
-                <!-- User Info, Notifications and Menu Bar -->
-                <!-- Left links for user info navbar -->
-                <ul class="user-info-menu left-links list-inline list-unstyled">
-                    <li class="hidden-sm hidden-xs">
-                        <a href="#" data-toggle="sidebar">
-                            <i class="icon-bar"></i>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-            <!-- 今日诗词 -->
-            <div id="poem_content">
-                <h3 id="poem_sentence"></h3><span id="poem_info"></span>
-            </div>
-            <!-- 今日诗词 -->
-            <br />
-            <!-- 1OVE体系 -->
-            
-            <h4 class="text-gray"><i class="icon-star" style="margin-right: 7px;" id="1OVE生态"></i>1OVE生态</h4>
-            <div class="row">
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://1ove.club', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="愿我不忘初衷，盼你始终不离。">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://image.1ove.club/static/logo.png"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>首页</strong>
-                                </a>
-                                <p class="overflowClip_2">愿我不忘初衷，盼你始终不离。</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://1ove.club/1oveCommunity.html', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="免费OneDrive资源分享">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://1ove.club/images/1oveCommunity.png"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>1oveCommunity</strong>
-                                </a>
-                                <p class="overflowClip_2">免费OneDrive资源分享</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://1ove.club/1oveClub.html', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="付费OneDrive资源分享">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://1ove.club/images/1oveClub.png"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>1oveClub</strong>
-                                </a>
-                                <p class="overflowClip_2">付费OneDrive资源分享</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://1ove.club/1oveTheme.html', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Telegram主题">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://1ove.club/images/1oveTheme.jpg"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>1oveTheme</strong>
-                                </a>
-                                <p class="overflowClip_2">Telegram主题</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://bbs.1ove.club/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="1ove寓意The first love，即初恋。愿我不忘初衷，盼你始终不离。">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/fdb74d1d6bc342299158a64702a5e6ce"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>1OVE论坛</strong>
-                                </a>
-                                <p class="overflowClip_2">1ove寓意The first love，即初恋。愿我不忘初衷，盼你始终不离。</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://github.com/1oveClub', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="欢迎Follow或Star">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/cbe921b7b40a4fb295de57f93dfff9df"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>1OVE Github</strong>
-                                </a>
-                                <p class="overflowClip_2">欢迎Follow或Star</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://shop.1ove.club/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="无">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/ef4f7f96e75949c3816f001ccf92112e"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>1OVE发卡网</strong>
-                                </a>
-                                <p class="overflowClip_2">无</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://freems.1ove.club/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="目前有三个域，方便于1oveCommunity分享资源">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/7845b64d0688427a86734435f313b714"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>免费微软全局子号自助注册</strong>
-                                </a>
-                                <p class="overflowClip_2">目前有三个域，方便于1oveCommunity分享资源</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://cdn.jsdelivr.net/gh/qiantigers/onetu/202110102219048.png', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="可用于商店支付，也可以用于1ove发卡网">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/60501a82fca04e24b3433067741a3bfd"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>免费领支付宝红包</strong>
-                                </a>
-                                <p class="overflowClip_2">可用于商店支付，也可以用于1ove发卡网</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <br />
-            
-            
-            <h4 class="text-gray"><i class="icon-pencil" style="margin-right: 7px;" id="1OVE工具"></i>1OVE工具</h4>
-            <div class="row">
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://image.1ove.club', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="多合一图床,Cdn图床,百度图床,阿里图床,京东图床,搜狗图床,搜狐图床,QQ图床,58图床,头条图床,网易图床,360图床,葫芦侠图床">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://image.1ove.club/static/logo.png"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>1OVE图床一</strong>
-                                </a>
-                                <p class="overflowClip_2">多合一图床,Cdn图床,百度图床,阿里图床,京东图床,搜狗图床,搜狐图床,QQ图床,58图床,头条图床,网易图床,360图床,葫芦侠图床</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://image.1ove.club/mix.html', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="多合一图床,Cdn图床,百度图床,阿里图床,京东图床,搜狗图床,搜狐图床,QQ图床,58图床,头条图床,网易图床,360图床,葫芦侠图床">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://image.1ove.club/static/logo.png"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>1OVE图床二</strong>
-                                </a>
-                                <p class="overflowClip_2">多合一图床,Cdn图床,百度图床,阿里图床,京东图床,搜狗图床,搜狐图床,QQ图床,58图床,头条图床,网易图床,360图床,葫芦侠图床</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://1ove.tk/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="提供Markdown文件直链，即可在线渲染。">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/f5353193b99c4ca08e3f6a51e63f8b77"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Markdown在线渲染</strong>
-                                </a>
-                                <p class="overflowClip_2">提供Markdown文件直链，即可在线渲染。</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://markdown.1ove.club/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="1OVE Markdown Editor">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://markdown.1ove.club/favicon.png"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Markdown编辑器</strong>
-                                </a>
-                                <p class="overflowClip_2">1OVE Markdown Editor</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://myip.1ove.club/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="查看自己的ip地址">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/5c095cb445ba42848df45b507fae100b"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>My IP</strong>
-                                </a>
-                                <p class="overflowClip_2">查看自己的ip地址</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://watermark.1ove.club/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="给图片加水印，防止盗图">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://s1.ig.meishij.net/p/20120918/f8f9c245e0025ec45a2ad3ea3f151a28_180x180.jpg"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>图片加水印</strong>
-                                </a>
-                                <p class="overflowClip_2">给图片加水印，防止盗图</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://p2p.1ove.club', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="基于浏览器，实现用户与用户之间的p2p传输">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p2p.1ove.club/favicon.ico"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>1OVE P2P</strong>
-                                </a>
-                                <p class="overflowClip_2">基于浏览器，实现用户与用户之间的p2p传输</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://ghstar.1ove.club/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="对优秀的Github项目进行归纳、整理、收藏">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://ghstar.1ove.club/favicon.ico"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Github收藏夹管理</strong>
-                                </a>
-                                <p class="overflowClip_2">对优秀的Github项目进行归纳、整理、收藏</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://tools.1ove.club/GuoQingAvatar/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="国庆快乐">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/fd439b02686644c8aad6756c03af59a1"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>头像加国庆Buff工具一</strong>
-                                </a>
-                                <p class="overflowClip_2">国庆快乐</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://tools.1ove.club/GuoQingAvatar-Plus/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="国庆快乐">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/ca2bce1ff992412182a80c5843fcdf7c"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>头像加国庆Buff工具二</strong>
-                                </a>
-                                <p class="overflowClip_2">国庆快乐</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://tools.1ove.club/RandomPassword-1/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="口令生成高强度密码">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/c5257a2090b944b6b6c0d60ea6005b6a"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>随机密码生成一</strong>
-                                </a>
-                                <p class="overflowClip_2">口令生成高强度密码</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://tools.1ove.club/RandomPassword-2/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="最高32位，支持大写、小写、数字、符号混合">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/f2eddf6a9c584287b03e2f808c4abf76"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>随机密码生成二</strong>
-                                </a>
-                                <p class="overflowClip_2">最高32位，支持大写、小写、数字、符号混合</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://tools.1ove.club/RandomPassword-3/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="支持64位高强度随机密码">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/15eba5934d1a454ba7cd52dd1046d430"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>随机密码生成三</strong>
-                                </a>
-                                <p class="overflowClip_2">支持64位高强度随机密码</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <br />
-            
-            
-            <h4 class="text-gray"><i class="icon-database" style="margin-right: 7px;" id="1OVE趣味"></i>1OVE趣味</h4>
-            <div class="row">
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://game.1ove.club/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="以HTML5为主，可以直接在线玩耍。">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/e9af17062be54821af2948eb1c2326c1"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>小游戏大全</strong>
-                                </a>
-                                <p class="overflowClip_2">以HTML5为主，可以直接在线玩耍。</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://game.1ove.club/FC-Games/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="童年回忆">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://img12.360buyimg.com/n1/s450x450_jfs/t1/26292/30/5521/357015/5c3ed13cE2f90a423/41901d4ee7e483ea.jpg"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>小霸王游戏机</strong>
-                                </a>
-                                <p class="overflowClip_2">童年回忆</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://dog.1ove.club/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="……">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/6f450f9623f344f28f41b17a8c3d6c5d"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>舔狗日记</strong>
-                                </a>
-                                <p class="overflowClip_2">……</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <br />
-            
-            <!-- END 在线工具 -->
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-gem"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>1OVE CLUB</h1>
+								<p>1OVE寓意THE FIRST LOVE，即初心。CLUB寓意兴趣提供原动力。愿我不忘初衷，盼你始终不离。</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="https://www.1ove.club" target="_blank">导航</a></li>
+								<li><a href="https://bbs.1ove.club" target="_blank">论坛</a></li>
+								<li><a href="https://www.1ove.club/archives/qq_pindao.html" target="_blank">QQ频道</a></li>
+								<li><a href="#Telegram">Telegram</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
 
-            <!-- 博客 -->
-            
-            <h4 class="text-gray"><i class="icon-desktop" style="margin-right: 7px;" id="博客"></i>博客</h4>
-            <div class="row">
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://www.qian.blue/', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="我要这天，再遮不住我的眼；要这地，再埋不了我的心。">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://www.qian.blue/favicon.ico"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>勿埋我心</strong>
-                                </a>
-                                <p class="overflowClip_2">我要这天，再遮不住我的眼；要这地，再埋不了我的心。</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('http://weinb.top', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="游荡的孤高灵魂不需要羁绊之地">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://weinb.top/usr/uploads/2020/03/%E9%9B%AA%E4%B9%83.jpg"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Ben的小站</strong>
-                                </a>
-                                <p class="overflowClip_2">游荡的孤高灵魂不需要羁绊之地</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <br />
-            
-            <!-- END 博客 -->
+				<!-- Main -->
+					<div id="main">
 
-            <!-- Telegram -->
-            
-            <h4 class="text-gray"><i class="icon-graduation-cap" style="margin-right: 7px;" id="Telegram"></i>Telegram</h4>
-            <div class="row">
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://t.me/Home_1OVE', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="作为1ove体系的导航">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://img13.360buyimg.com/ddimg/jfs/t1/176287/12/22491/114964/614930ceE9e073461/0bd48ed7d0344d76.png"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>1OVE生态总频道</strong>
-                                </a>
-                                <p class="overflowClip_2">作为1ove体系的导航</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://t.me/Our_1oveCommunity', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="免费、无门槛、无套路，每个人都可以来这里分享你的OneDrive微软云盘资源。">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://1ove.club/images/1oveCommunity.png"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>OneDrive/SharePoint资源分享（1oveCommunity）</strong>
-                                </a>
-                                <p class="overflowClip_2">免费、无门槛、无套路，每个人都可以来这里分享你的OneDrive微软云盘资源。</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://t.me/shareAliyun', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="和谐、友爱的阿里云盘分享交流频道，每个人在这里都可以分享自己想分享的资源。">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://img10.360buyimg.com/ddimg/jfs/t1/206401/25/7486/97688/6149311bE74a603f5/325dc2b38977a319.png"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>阿里云盘资源分享</strong>
-                                </a>
-                                <p class="overflowClip_2">和谐、友爱的阿里云盘分享交流频道，每个人在这里都可以分享自己想分享的资源。</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://t.me/TG_1oveTheme', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="包含电脑端和安卓端主题">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://1ove.club/images/1oveTheme.jpg"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>Telegram主题</strong>
-                                </a>
-                                <p class="overflowClip_2">包含电脑端和安卓端主题</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://t.me/Free_1oveTeam', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Onedrive不同域之间的文件分享需下载本地再上传，效率极低，不同云盘间转存资源亦存在此问题。本频道旨在探索快速转存跨域（云）资源的途">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://p.pstatp.com/origin/pgc-image/b83559982b194a7790abc20fcbaedd28"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>OneDrive资源跨域转存(1oveTeam)</strong>
-                                </a>
-                                <p class="overflowClip_2">Onedrive不同域之间的文件分享需下载本地再上传，效率极低，不同云盘间转存资源亦存在此问题。本频道旨在探索快速转存跨域（云）资源的途</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-3">
-                    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('https://t.me/QianBlue_RSS', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="集合一些优秀平台的RSS，并进行分享。">
-                        <div class="xe-comment-entry">
-                            <a class="xe-user-img">
-                                <img  data-src="https://img11.360buyimg.com/ddimg/jfs/t1/144077/37/20668/417128/61493179E8b2a80d9/fe124b868cfd0685.png"  class="lozad img-circle" width="40">
-                            </a>
-                            <div class="xe-comment">
-                                <a href="#" class="xe-user-name overflowClip_1">
-                                    <strong>RSS频道</strong>
-                                </a>
-                                <p class="overflowClip_2">集合一些优秀平台的RSS，并进行分享。</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <br />
-            
-            <!-- END Telegram -->
+						<!-- Telegram -->
+							<article id="Telegram">
+								<h2 class="major">Telegram</h2>
+								<span class="image main"><img src="images/telegram.webp" alt="" /></span>
+								<h3 class="major">频道</h3>
+								<ul class="actions">
+									<li><a href="https://www.1ove.club/archives/32.html" target="_blank" class="button">总频道</a></li>
+								</ul>
+								<ul class="actions">
+									<li><a href="https://www.1ove.club/archives/club_1ove.html" target="_blank" class="button">1OVE CLUB Channel</a></li>
+									<li><a href="https://www.1ove.club/archives/Complex_1ove.html" target="_blank" class="button">1OVE综合资源</a></li>
 
-            <!-- 素材资源 -->
-            <!-- 
-            <h4 class="text-gray"><i class="icon-inbox" style="margin-right: 7px;" id="素材资源"></i>素材资源</h4>
-            <div class="row">
-                
-            </div>
-            <br />
-             -->
-            <!-- END 素材资源 -->
+								</ul>
+								<ul class="actions">
+									<li><a href="https://www.1ove.club/archives/36.html" target="_blank" class="button">Telegram主题</a></li>
+									<li><a href="https://www.1ove.club/archives/37.html" target="_blank" class="button">RSS订阅</a></li>
+								</ul>
 
+								<h3 class="major">群聊</h3>
+								<ul class="actions">
+									<li><a href="https://t.me/chat_1ove" target="_blank" class="button">1OVE CLUB交流群</a></li>
+									<li><a href="https://t.me/HaoYangMaoDaXue" target="_blank" class="button">1OVE综合资源交流群</a></li>
+								</ul>
+							</article>
 
-            <!-- Main Footer -->
-            <!-- Choose between footer styles: "footer-type-1" or "footer-type-2" -->
-            <!-- Add class "sticky" to  always stick the footer to the end of page (if page contents is small) -->
-            <!-- Or class "fixed" to  always fix the footer to the end of page -->
-            <footer class="main-footer sticky footer-type-1">
-                <div class="footer-inner">
-                    <!-- Add your copyright text here -->
-                    <div class="footer-text">
-                        Powered by <a href="https://www.1ove.club" target="_blank">1OVE</a> <span id="busuanzi_container_site_pv" style='display:none'>总访问量<span id="busuanzi_value_site_pv"></span>次</span>
-                    </div>
-                    <div class="go-up">
-                        <a href="#" rel="go-top">
-                            <i class="icon-up"></i>
-                        </a>
-                    </div>
-                </div>
-            </footer>
-        </div>
-    </div>
+						<!-- Elements -->
+<!--							<article id="elements">-->
+<!--								<h2 class="major">Elements</h2>-->
 
+<!--								<section>-->
+<!--									<h3 class="major">Text</h3>-->
+<!--									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.-->
+<!--									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.-->
+<!--									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>-->
+<!--									<hr />-->
+<!--									<h2>Heading Level 2</h2>-->
+<!--									<h3>Heading Level 3</h3>-->
+<!--									<h4>Heading Level 4</h4>-->
+<!--									<h5>Heading Level 5</h5>-->
+<!--									<h6>Heading Level 6</h6>-->
+<!--									<hr />-->
+<!--									<h4>Blockquote</h4>-->
+<!--									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>-->
+<!--									<h4>Preformatted</h4>-->
+<!--									<pre><code>i = 0-->
+<!--										while (!deck.isInOrder()) {-->
+<!--											print 'Iteration ' + i;-->
+<!--											deck.shuffle();-->
+<!--											i++;-->
+<!--										}-->
 
-    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-    <script type="text/javascript">
-    jinrishici.load(function(result) {
-        var sentence = document.querySelector("#poem_sentence")
-        var info = document.querySelector("#poem_info")
-        sentence.innerHTML = result.data.content
-        info.innerHTML = '【' + result.data.origin.dynasty + '】' + result.data.origin.author + '《' + result.data.origin.title + '》'
-    });
-    </script>
-    <!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> -->
-    <script async src="https://www.1ove.club/media/js/busuanzi.pure.mini.js"></script>
+<!--										print 'It took ' + i + ' iterations to sort the deck.';</code></pre>-->
+<!--								</section>-->
 
-    <script src="//cdnjs.loli.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- 锚点平滑移动 -->
-    <script type="text/javascript">
-    $(document).ready(function() {
-         //img lazy loaded
-         const observer = lozad();
-         observer.observe();
+<!--								<section>-->
+<!--									<h3 class="major">Lists</h3>-->
 
-        $(document).on('click', '.has-sub', function(){
-            var _this = $(this)
-            if(!$(this).hasClass('expanded')) {
-               setTimeout(function(){
-                    _this.find('ul').attr("style","")
-               }, 300);
-              
-            } else {
-                $('.has-sub ul').each(function(id,ele){
-                    var _that = $(this)
-                    if(_this.find('ul')[0] != ele) {
-                        setTimeout(function(){
-                            _that.attr("style","")
-                        }, 300);
-                    }
-                })
-            }
-        })
-        $('.user-info-menu .hidden-sm').click(function(){
-            if($('.sidebar-menu').hasClass('collapsed')) {
-                $('.has-sub.expanded > ul').attr("style","")
-            } else {
-                $('.has-sub.expanded > ul').show()
-            }
-        })
-        $("#main-menu li ul li").click(function() {
-            $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
-            $(this).addClass('active'); // 添加当前元素的样式
-        });
-        $("a.smooth").click(function(ev) {
-            ev.preventDefault();
+<!--									<h4>Unordered</h4>-->
+<!--									<ul>-->
+<!--										<li>Dolor pulvinar etiam.</li>-->
+<!--										<li>Sagittis adipiscing.</li>-->
+<!--										<li>Felis enim feugiat.</li>-->
+<!--									</ul>-->
 
-            public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
-            ps_destroy();
-            $("html, body").animate({
-                scrollTop: $($(this).attr("href")).offset().top - 30
-            }, {
-                duration: 500,
-                easing: "swing"
-            });
-        });
-        return false;
-    });
+<!--									<h4>Alternate</h4>-->
+<!--									<ul class="alt">-->
+<!--										<li>Dolor pulvinar etiam.</li>-->
+<!--										<li>Sagittis adipiscing.</li>-->
+<!--										<li>Felis enim feugiat.</li>-->
+<!--									</ul>-->
 
-    var href = "";
-    var pos = 0;
-    $("a.smooth").click(function(e) {
-        $("#main-menu li").each(function() {
-            $(this).removeClass("active");
-        });
-        $(this).parent("li").addClass("active");
-        e.preventDefault();
-        href = $(this).attr("href");
-        pos = $(href).position().top - 30;
-    });
-    </script>
-    <!-- Bottom Scripts -->
-    <script src="https://www.1ove.club/media/js/bootstrap.min.js"></script>
-    <script src="https://www.1ove.club/media/js/TweenMax.min.js"></script>
-    <script src="https://www.1ove.club/media/js/resizeable.js"></script>
-    <script src="https://www.1ove.club/media/js/xenon-toggles.js"></script>
-    <script src="https://www.1ove.club/media/js/xenon-custom.js"></script>
-    <script src="https://www.1ove.club/media/js/lozad.js"></script>
-    <script src="https://www.1ove.club/media/js/LetterAvatar.js"></script>
-    <script src="https://www.1ove.club/media/js/analytics.js"></script>
-</body>
+<!--									<h4>Ordered</h4>-->
+<!--									<ol>-->
+<!--										<li>Dolor pulvinar etiam.</li>-->
+<!--										<li>Etiam vel felis viverra.</li>-->
+<!--										<li>Felis enim feugiat.</li>-->
+<!--										<li>Dolor pulvinar etiam.</li>-->
+<!--										<li>Etiam vel felis lorem.</li>-->
+<!--										<li>Felis enim et feugiat.</li>-->
+<!--									</ol>-->
+<!--									<h4>Icons</h4>-->
+<!--									<ul class="icons">-->
+<!--										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>-->
+<!--										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
+<!--										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
+<!--										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>-->
+<!--									</ul>-->
 
+<!--									<h4>Actions</h4>-->
+<!--									<ul class="actions">-->
+<!--										<li><a href="#" class="button primary">Default</a></li>-->
+<!--										<li><a href="#" class="button">Default</a></li>-->
+<!--									</ul>-->
+<!--									<ul class="actions stacked">-->
+<!--										<li><a href="#" class="button primary">Default</a></li>-->
+<!--										<li><a href="#" class="button">Default</a></li>-->
+<!--									</ul>-->
+<!--								</section>-->
 
+<!--								<section>-->
+<!--									<h3 class="major">Table</h3>-->
+<!--									<h4>Default</h4>-->
+<!--									<div class="table-wrapper">-->
+<!--										<table>-->
+<!--											<thead>-->
+<!--												<tr>-->
+<!--													<th>Name</th>-->
+<!--													<th>Description</th>-->
+<!--													<th>Price</th>-->
+<!--												</tr>-->
+<!--											</thead>-->
+<!--											<tbody>-->
+<!--												<tr>-->
+<!--													<td>Item One</td>-->
+<!--													<td>Ante turpis integer aliquet porttitor.</td>-->
+<!--													<td>29.99</td>-->
+<!--												</tr>-->
+<!--												<tr>-->
+<!--													<td>Item Two</td>-->
+<!--													<td>Vis ac commodo adipiscing arcu aliquet.</td>-->
+<!--													<td>19.99</td>-->
+<!--												</tr>-->
+<!--												<tr>-->
+<!--													<td>Item Three</td>-->
+<!--													<td> Morbi faucibus arcu accumsan lorem.</td>-->
+<!--													<td>29.99</td>-->
+<!--												</tr>-->
+<!--												<tr>-->
+<!--													<td>Item Four</td>-->
+<!--													<td>Vitae integer tempus condimentum.</td>-->
+<!--													<td>19.99</td>-->
+<!--												</tr>-->
+<!--												<tr>-->
+<!--													<td>Item Five</td>-->
+<!--													<td>Ante turpis integer aliquet porttitor.</td>-->
+<!--													<td>29.99</td>-->
+<!--												</tr>-->
+<!--											</tbody>-->
+<!--											<tfoot>-->
+<!--												<tr>-->
+<!--													<td colspan="2"></td>-->
+<!--													<td>100.00</td>-->
+<!--												</tr>-->
+<!--											</tfoot>-->
+<!--										</table>-->
+<!--									</div>-->
 
+<!--									<h4>Alternate</h4>-->
+<!--									<div class="table-wrapper">-->
+<!--										<table class="alt">-->
+<!--											<thead>-->
+<!--												<tr>-->
+<!--													<th>Name</th>-->
+<!--													<th>Description</th>-->
+<!--													<th>Price</th>-->
+<!--												</tr>-->
+<!--											</thead>-->
+<!--											<tbody>-->
+<!--												<tr>-->
+<!--													<td>Item One</td>-->
+<!--													<td>Ante turpis integer aliquet porttitor.</td>-->
+<!--													<td>29.99</td>-->
+<!--												</tr>-->
+<!--												<tr>-->
+<!--													<td>Item Two</td>-->
+<!--													<td>Vis ac commodo adipiscing arcu aliquet.</td>-->
+<!--													<td>19.99</td>-->
+<!--												</tr>-->
+<!--												<tr>-->
+<!--													<td>Item Three</td>-->
+<!--													<td> Morbi faucibus arcu accumsan lorem.</td>-->
+<!--													<td>29.99</td>-->
+<!--												</tr>-->
+<!--												<tr>-->
+<!--													<td>Item Four</td>-->
+<!--													<td>Vitae integer tempus condimentum.</td>-->
+<!--													<td>19.99</td>-->
+<!--												</tr>-->
+<!--												<tr>-->
+<!--													<td>Item Five</td>-->
+<!--													<td>Ante turpis integer aliquet porttitor.</td>-->
+<!--													<td>29.99</td>-->
+<!--												</tr>-->
+<!--											</tbody>-->
+<!--											<tfoot>-->
+<!--												<tr>-->
+<!--													<td colspan="2"></td>-->
+<!--													<td>100.00</td>-->
+<!--												</tr>-->
+<!--											</tfoot>-->
+<!--										</table>-->
+<!--									</div>-->
+<!--								</section>-->
+
+<!--								<section>-->
+<!--									<h3 class="major">Buttons</h3>-->
+<!--									<ul class="actions">-->
+<!--										<li><a href="#" class="button primary">Primary</a></li>-->
+<!--										<li><a href="#" class="button">Default</a></li>-->
+<!--									</ul>-->
+<!--									<ul class="actions">-->
+<!--										<li><a href="#" class="button">Default</a></li>-->
+<!--										<li><a href="#" class="button small">Small</a></li>-->
+<!--									</ul>-->
+<!--									<ul class="actions">-->
+<!--										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>-->
+<!--										<li><a href="#" class="button icon solid fa-download">Icon</a></li>-->
+<!--									</ul>-->
+<!--									<ul class="actions">-->
+<!--										<li><span class="button primary disabled">Disabled</span></li>-->
+<!--										<li><span class="button disabled">Disabled</span></li>-->
+<!--									</ul>-->
+<!--								</section>-->
+
+<!--								<section>-->
+<!--									<h3 class="major">Form</h3>-->
+<!--									<form method="post" action="#">-->
+<!--										<div class="fields">-->
+<!--											<div class="field half">-->
+<!--												<label for="demo-name">Name</label>-->
+<!--												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />-->
+<!--											</div>-->
+<!--											<div class="field half">-->
+<!--												<label for="demo-email">Email</label>-->
+<!--												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />-->
+<!--											</div>-->
+<!--											<div class="field">-->
+<!--												<label for="demo-category">Category</label>-->
+<!--												<select name="demo-category" id="demo-category">-->
+<!--													<option value="">-</option>-->
+<!--													<option value="1">Manufacturing</option>-->
+<!--													<option value="1">Shipping</option>-->
+<!--													<option value="1">Administration</option>-->
+<!--													<option value="1">Human Resources</option>-->
+<!--												</select>-->
+<!--											</div>-->
+<!--											<div class="field half">-->
+<!--												<input type="radio" id="demo-priority-low" name="demo-priority" checked>-->
+<!--												<label for="demo-priority-low">Low</label>-->
+<!--											</div>-->
+<!--											<div class="field half">-->
+<!--												<input type="radio" id="demo-priority-high" name="demo-priority">-->
+<!--												<label for="demo-priority-high">High</label>-->
+<!--											</div>-->
+<!--											<div class="field half">-->
+<!--												<input type="checkbox" id="demo-copy" name="demo-copy">-->
+<!--												<label for="demo-copy">Email me a copy</label>-->
+<!--											</div>-->
+<!--											<div class="field half">-->
+<!--												<input type="checkbox" id="demo-human" name="demo-human" checked>-->
+<!--												<label for="demo-human">Not a robot</label>-->
+<!--											</div>-->
+<!--											<div class="field">-->
+<!--												<label for="demo-message">Message</label>-->
+<!--												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>-->
+<!--											</div>-->
+<!--										</div>-->
+<!--										<ul class="actions">-->
+<!--											<li><input type="submit" value="Send Message" class="primary" /></li>-->
+<!--											<li><input type="reset" value="Reset" /></li>-->
+<!--										</ul>-->
+<!--									</form>-->
+<!--								</section>-->
+
+<!--							</article>-->
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Powered by <a href="https://1ove.club">1OVE CLUB</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
